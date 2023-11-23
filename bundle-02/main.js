@@ -23,12 +23,26 @@ function checkAge() {
 }
 checkAge();
 
+/*
+-controlla se sei maggiorenne
+-nessun errore di sintassi
+-1)myage dovrebbe essere un argomento
+ 2)const message non può essere riassegnata
+ 3)non stiamo stampando il messaggio
+*/
+
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
     console.log(`Nella mia palette ci sono ${colors.lenght} colori!`);
 }
 printColorsNumber();
+
+/*
+-ti dice quanti colori ci sono nell'array
+-nessun erorre di sintassi
+-array come argomento
+*/
 
 
 // ESERCIZIO 3
@@ -40,6 +54,12 @@ function addNumbers() {
 }
 addNumbers();
 
+/*
+-aggiunge 12 al tuo input
+-nessun errore di sintassi
+-non abbiamo specificato che sia un numero nel prompt
+-nessun return con il numero
+*/
 
 // ESERCIZIO 4
 function checkAccess() {
@@ -59,6 +79,12 @@ function checkAccess() {
     }
 }
 checkAccess();
+
+/*
+-Controlla se la tua email è all'interno dell'array
+- false e true come stringa invece che booleano, === è ugualgianza di contenuto e tipo
+-
+*/
 
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
@@ -89,10 +115,11 @@ function checkAccessImproved() {
     }
     checkAccessImproved();
 
+/*
+- attraverso un ciclo, confronta ogni elemnto dell'array tramite index, con l'input dell'utente
 
-
-
-
+- la funzione non viene chiusa
+*/
 
 
 
